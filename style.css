@@ -1,0 +1,62 @@
+*{
+    color:white;
+}
+body{
+    background-color: rgb(32, 32, 32);
+}
+form{
+    width: 30vw;
+    height: 70vh;
+    margin: 100px 450px;
+    line-height: 60px;
+    text-align: center;
+}
+legend{
+    text-align: center;
+    font-size: 25px;
+    
+    
+    
+}
+
+form input, textarea{
+    width: 25vw;
+    height: 7vh;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border : 2px solid white;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    box-sizing: border-box;   
+    font-size: 1em;
+}
+ textarea {
+    height: 20%;
+    margin-bottom: 20px !important;
+}
+
+input:focus{
+    border-bottom: 2px solid blue;
+    outline: none;
+}
+
+
+textarea:focus{
+    border-bottom: 2px solid blue;
+    outline: none;
+}
+
+.button{
+ text-align: center;
+ color: white;
+ background-color: blue;
+ width: 25%;
+ height: 28px;
+ border-radius: 20px;
+ 
+}
+button:last-child{
+    background-color: white;
+    color: black;
+}
