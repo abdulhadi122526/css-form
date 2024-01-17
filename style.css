@@ -35,6 +35,10 @@ form input, textarea{
     height: 20%;
     margin-bottom: 20px !important;
 }
+input:hover ,textarea:hover{
+    border-bottom: 2px solid blue;
+    outline: none;
+}
 
 input:focus{
     border-bottom: 2px solid blue;
@@ -53,10 +57,20 @@ textarea:focus{
  background-color: blue;
  width: 25%;
  height: 28px;
+ border: none;
  border-radius: 20px;
  
 }
-button:last-child{
+.button:last-child{
     background-color: white;
     color: black;
+}
+
+.button:hover{
+    background-color: gray;
+    color: black;
+    border: none;
+}
+.button{
+    cursor:pointer;
 }
